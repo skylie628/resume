@@ -1,0 +1,225 @@
+
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Dinh Vinh Khuong} \\ \vspace{1pt}
+    \small 0352-917-477 $|$ \underline{\href{mailto:khuongdinhvinh@gmail.com}{khuongdinhvinh@gmail.com}}
+    $|$ 
+    \underline{\href{https://linkedin.com/in/dinhvinhkhuong}{linkedin.com/in/dinhvinhkhuong}}
+   $|$
+    \underline{\href{https://github.com/skylie628}{github.com/skylie628}}
+\end{center}
+
+%-----------OBJECTIVE-----------
+\section{\textbf{Objective}}
+  Software engineer passionate about web development. Proficient in frontend with experience in back-end development, dedicated to creating seamless user experiences and contributing to agile, scalable web solutions. 
+
+
+%-----------EDUCATION-----------
+\section{\textbf{Education}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Ho Chi Minh City University of Technology}{Thu Duc, HCM}
+      {Bachelor of Engineering, Computer Science}{Nov 2022}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{\textbf{Technical Skills}}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+  \resumeItemListStart
+     \resumeItem{\textbf{Web technologies} : Javascript, Typescript, HTML5, CSS3}
+     \resumeItem{ \textbf{Libraries & Frameworks}: React, Next, Redux, Jotai, Zustand, React-Query} 
+    \resumeItem{   \textbf{UI Components}: Material UI, Ant Design, Chakra, Radix }
+      \resumeItem{\textbf{Backend}: Familiar with Nodejs, Express, Mongo, Redis, SQL, Firebase}
+      \resumeItem{\textbf{Tools}: Git, Docker, Webpack}
+     \resumeItemListEnd
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{\textbf{Experience}}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Frontend Developer}{Jan 2023 -- Feb 2024}
+      {Digimax}{ReactJS, Redux}
+      \resumeItemListStart
+        \resumeItem{Used ReactJS to create new features for users.}
+       \resumeItem{Constructed front-end libraries and reusable parts for later use.}
+        \resumeItem{Worked closely with UI designers to implement features, improve UI and UX from user
+feedback.}
+        \resumeItem{Analyzed requirements with Technical Architecture about new features. Select suitable
+libraries and technologies, plan tasks and submit reports.}
+        \resumeItem{Restructured the main app's structure, improve the maintainability of the code, keep the main.js file in the scratch React project at 400 kb, and shorten users' first load times.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Fullstack Intern }{Jul. 2021 -- Dec. 2021}
+      {FPT Software} {HTML, CSS, Java Spring Boot }
+
+      
+      \resumeItemListStart
+        \resumeItem{Utilized CSS library like Bootstrap, UI component and acquired knowledge of responsive design principles to create mobile-friendly layouts.}
+       \resumeItem{Gained practical experience in web development using HTML, CSS, and JavaScript.}
+        \resumeItem{Receive requirements from BA, plan tasks due, develop features, fix bugs and report
+daily}
+      
+    \resumeItemListEnd
+
+%-----------PROJECTS-----------
+\section{\textbf{Projects}}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Crypto Portfolio Tracking} $|$ \emph{ReactJS, Redux, ChakraUI, HighCharts}}{Nov 2023 - Present} 
+          
+          \resumeItemListStart
+          
+            \resumeItem{Ultilized High Chart library to create interactive data visualization.}
+            \resumeItem{Handled real-time data fetching with socket and Redux event listener}
+            \resumeItem{Designed and implemented a cache system with Redis and AWS for data pooling.}
+            \resumeItem{Integrated JWT-based authentication to ensure secure user access}
+            \resumeItem{Demo: \underline{\href{https://coiport.vercel.app/}{coiport.vercel.app}} 
+            }
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Ecommerce Site} $|$ \emph{Next - Typescript, Jotai, MongoDB, Redis}}{ Sep -- Dec 2023}
+        
+          \resumeItemListStart
+          
+            \resumeItem{
+            Delivered a streamlined shopping experience, optimized performance, SEO and user satisfaction.}
+            \resumeItem{Integrated Redis as a cache layer, enhancing product querying efficiency with MongoDB for agile product data storage.}
+            \resumeItem{
+             Applied Jotai as an atomic approach to global React state management
+             }
+               \resumeItem{Demo: \underline{\href{https://sadida-phonecase.vercel.app/}{sadida-phonecase.vercel.app}} 
+            }
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{\textbf{Certifications}}
+   \begin{itemize}[leftmargin=0.15in, label={}]
+  \resumeItemListStart
+  \resumeItem{Agile and Scrum Certification by Axon Active}
+\resumeItem{TOEIC Certificate with score 725}
+   \resumeItemListEnd
+ \end{itemize}
+%-------------------------------------------
+\end{document}
